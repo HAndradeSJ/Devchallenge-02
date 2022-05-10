@@ -1,0 +1,43 @@
+/* impoortação */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&family=Roboto:wght@100;400&display=swap');
+
+/* variaveis */
+:root{
+    --color-1: #21EB00 ;
+    --color-2: #191A18;
+    --font-default:font-family: 'Roboto', sans-serif;
+}
+/* default */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    bottom:0;
+    background-color:black;
+    color:white;   
+}
+/* header do site */
+header{
+    display:flex;
+    justify-content:space-between;
+    margin-top:8vh;
+}
+/* h1 do header */
+h1{
+    color:var(--color-1);
+    font-family:'Roboto', sans-serif;;
+    margin-left:5vw;
+    font-size:2.5rem;
+}
+/* button */
+button{
+    margin-right:6vw;
+    border:none;
+    background-color:var(--color-1);
+    height:8vh;
+    width:10vw;
+    border-radius:10vw;
+    font-size:1.5rem;
+    color:black;
+    font-weight:bold;
+}
