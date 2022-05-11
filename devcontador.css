@@ -27,7 +27,7 @@ main{
      color:var(--color-1);
      font-family:'Roboto', sans-serif;;
      font-weight:bold;
-     font-size:2.6rem;
+     font-size:2.9rem;
      margin-top:-10vh;
      transition:0.4s all;
  }
@@ -35,7 +35,7 @@ main{
  p{
      font-family:'Roboto', sans-serif;  
      color:#aaaaa6;
-     font-size:1.3rem;
+     font-size:1.2rem;
      margin-top:4vh;
  }
  /* input de data */

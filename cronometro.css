@@ -34,10 +34,56 @@ button{
     margin-right:6vw;
     border:none;
     background-color:var(--color-1);
-    height:8vh;
+    height:7vh;
     width:10vw;
     border-radius:10vw;
+    margin-top:1.40vh;
     font-size:1.5rem;
     color:black;
     font-weight:bold;
+    transition: 0.5s all;
+    cursor: pointer;
+}
+/* h2 do main */
+h2{
+    text-align:center;
+    font-size:4.5rem;
+    font-family:'Roboto', sans-serif ;
+    margin-top:10vh;
+    color:var(--color-2);
+}
+/* div do cronometro */
+.crono ul{
+    display:flex;
+    justify-content:center;
+    margin-left:2vw;
+}
+.crono li{
+    text-decoration:none;
+    list-style:none;
+    color:var(--color-1);
+    font-family:'Roboto', sans-serif;
+    margin-left:0vw;
+    margin-top:-11vh;
+    padding:5.4vw;
+    font-size:1.7rem;
+}
+/* div dos numeros do cronometro */
+.numeros ul{
+    display:flex;
+    justify-content:center;
+    margin-top:0;
+}
+.numeros li{
+    list-style:none;
+    color:white;
+    padding:4.0vw;
+    font-family:'Roboto', sans-serif;
+    font-size:6.5rem;
+}
+
+/* hover do site */
+button:hover{
+    width:13vw;
+    height:9vh;
 }
