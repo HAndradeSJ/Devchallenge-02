@@ -47,41 +47,41 @@ button{
 /* h2 do main */
 h2{
     text-align:center;
-    font-size:4.5rem;
+    font-size:4.0rem;
     font-family:'Roboto', sans-serif ;
-    margin-top:10vh;
+    margin-top:4.5vh;
     color:var(--color-2);
 }
 /* div do cronometro */
-.crono ul{
+main{
     display:flex;
-    justify-content:center;
-    margin-left:2vw;
+    flex-direction:column;
+    align-items:center;
+    min-height:100vh;
+    margin:0;
 }
-.crono li{
-    text-decoration:none;
-    list-style:none;
+.caixa-contador{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    margin-top:10vh;
+}
+.text{
+    font-family:'Roboto', sans-serif;
+    font-size:7rem;
+    line-height:1;
+    margin: 1rem 2rem;
+}
+.contador-el{
+    text-align:center;
+}
+.contador-el Span{
+    font-family: 'Roboto', sans-serif;
     color:var(--color-1);
-    font-family:'Roboto', sans-serif;
-    margin-left:0vw;
-    margin-top:-11vh;
-    padding:5.4vw;
-    font-size:1.7rem;
-}
-/* div dos numeros do cronometro */
-.numeros ul{
-    display:flex;
-    justify-content:center;
-    margin-top:0;
-}
-.numeros li{
-    list-style:none;
-    color:white;
-    padding:4.0vw;
-    font-family:'Roboto', sans-serif;
-    font-size:6.5rem;
-}
+    text-align:center;
+    font-size:1.5rem;
 
+}
 /* hover do site */
 button:hover{
     width:13vw;

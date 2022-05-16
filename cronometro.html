@@ -10,7 +10,7 @@
 </head>
 <body>
     <!-- script do site -->
-    <script src="cronometro.js"></script>
+    <script src="cronometro.js" defer></script>
     <header>
         <!-- titulo -->
         <h1>Contador</h1>
@@ -19,21 +19,27 @@
     <main>
         <h2>Faltam</h2>
         <!-- cronômetro -->
-        <div class="numeros">
-            <ul>
-                <li>00</li>
-                <li>00</li>
-                <li>00</li>
-                <li>00</li>
-            </ul>
-        </div>
-        <div class="crono">
-            <ul>
-                <li>Dias</li>
-                <li>Horas</li>
-                <li>Minutos</li>
-                <li>Segundo</li>
-            </ul>
+        <div class="caixa-contador">
+            <!-- Dias -->
+            <div class="contador-el days-c">
+                <p class="text" id="days">00</p>
+                <span>Dias</span>
+            </div>
+            <!-- Horas -->
+            <div class="contador-el hours-c">
+                <p class="text" id="hours">00</p>
+                <span>Horas</span>
+            </div>
+            <!-- Minutos -->
+            <div class="contador-el minutes-c">
+                <p class="text" id="minutes">00</p>
+                <span>Minutos</span>
+            </div>
+            <!-- Segundos -->
+            <div class="contador-el second-c">
+                <p class="text" id="second">00</p>
+                <span>Segundos</span>
+            </div>
         </div>
     </main>
     

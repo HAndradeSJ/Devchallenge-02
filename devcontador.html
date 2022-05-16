@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,15 +10,18 @@
 </head>
 <body>
     <!-- chamando javascript -->
+    <script src="devcontador.js"></script>
     <main>
     <!-- titulo -->
     <h1>Contador</h1>
     <!-- paragrafo informando -->
     <p>Informe uma data</p>
     <!-- input da data -->
-    <input  class="inputt"type="datetime" name="data" id="data" placeholder="DD/MM/AAAA">
+    <from>
+        <input class="inputt"type="date" name="data" id="data" placeholder="DD/MM/AAAA">
+    </from>
     <!-- submit do javascript -->
-    <button class="botao">Iniciar contagem</button>
+    <button class="botao" onclick="clicar()">Iniciar contagem</button>
     </main>    
 </body>
 </html>
