@@ -51,7 +51,7 @@ main{
      margin-top:2vh;
      border:none;
      cursor:pointer;
-     transition:2.0s all;
+     transition:0.5s all;
  }
  /* botão para iniciar o programa */
  button{
@@ -73,6 +73,12 @@ main{
  button:hover{
      width:23vw;
      height:8vh;
+ }
+ input:active{
+     font-size:0.12rem;
+     width:23vw;
+     height:8vh;
+
  }
  
  /* responsividade com mida querry */

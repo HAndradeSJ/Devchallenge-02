@@ -43,7 +43,7 @@ button{
     font-size:1.5rem;
     color:black;
     font-weight:bold;
-    transition: 0.5s all;
+    transition: 0.2s all;
     cursor: pointer;
 }
 /* h2 do main */
@@ -53,6 +53,7 @@ h2{
     font-family:'Roboto', sans-serif ;
     margin-top:4.5vh;
     color:var(--color-2);
+    transition: 0.2s all;
 }
 /* div do cronometro */
 main{
@@ -91,4 +92,8 @@ button:hover{
 }
 h1:hover{
     font-size:2.8rem;
+}
+h2:hover{
+    font-size:4.3rem;
+    margin-top:4.6vh;
 }
