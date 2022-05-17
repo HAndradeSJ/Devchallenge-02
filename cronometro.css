@@ -25,9 +25,11 @@ header{
 /* h1 do header */
 h1{
     color:var(--color-1);
-    font-family:'Roboto', sans-serif;;
+    font-family:'Roboto', sans-serif;
+    cursor: pointer;
     margin-left:5vw;
     font-size:2.5rem;
+    transition:0.5s all;
 }
 /* button */
 button{
@@ -86,4 +88,7 @@ main{
 button:hover{
     width:13vw;
     height:9vh;
+}
+h1:hover{
+    font-size:2.8rem;
 }
