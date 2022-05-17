@@ -17,6 +17,9 @@ function contador(){
     // paranmetros principais
     const partemp = new Date(data);
     const Datual = new Date();
+    if (Datual > partemp){
+        partemp = Datual;
+    }
     const totalsegundos = (partemp - Datual)/1000;
 
     // converção da icoginita para as medidas de tempo
